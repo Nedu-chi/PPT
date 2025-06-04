@@ -12,7 +12,7 @@
    ELSE IF pop2 > pop1 AND pop2 > pop3 THEN
       HighestCity = "City2"
       HighestPop = pop2
-   ELSE
+   ELSET
       HighestCity = "City3"
       HighestPop = pop3
    ENDIF
